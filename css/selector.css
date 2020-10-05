@@ -1,0 +1,12 @@
+h1,
+h2 {
+    color: green;
+}
+
+#pId {
+    color: blue;
+}
+
+.pClass {
+    color: violet;
+}

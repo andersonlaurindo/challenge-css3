@@ -1,0 +1,23 @@
+#colorName {
+    color: orange;
+}
+
+#colorRgb {
+    color: rgb(255, 99, 71);
+}
+
+#colorRgba {
+    color: rgba(255, 99, 71, 0.5);
+}
+
+#colorHex {
+    color: #ff6347;
+}
+
+#colorHsl {
+    color: hsl(9, 100%, 64%);
+}
+
+#colorHsla {
+    color: hsla(9, 100%, 64%, 0.5);
+}

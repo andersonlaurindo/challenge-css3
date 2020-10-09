@@ -3,3 +3,7 @@
     background-color: green;
     opacity: 0.3;
 }
+
+#testBackgroundImage {
+    background-image: url("/img/bg-test-repeat.jpg");
+}

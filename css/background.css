@@ -1,9 +1,35 @@
-#testBackground {
-    /*rgba(0, 128, 0, 0.3)*/
+#testBackgroundColor {
+    background-color: lightblue;
+}
+
+#testOpacity {
     background-color: green;
     opacity: 0.3;
 }
 
+#testOpacityRGBA {
+    background-color: rgba(0, 128, 0, 0.3);
+}
+
 #testBackgroundImage {
-    background-image: url("/img/bg-test-repeat.jpg");
+    background-image: url("../img/bg-test-repeat.jpg");
+}
+
+#testBackgroundImage {
+    background-image: url("../img/bg-test-repeat.jpg");
+}
+
+#testBackgroundImageRepeatY {
+    background-image: url("../img/bg-test-repeat.jpg");
+    background-repeat: repeat-y;
+}
+
+#testBackgroundImageNoRepeat {
+    background-image: url("../img/bg-test-repeat.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed; /*scroll*/
+
+    /*background: green url("../img/bg-test-repeat.jpg") no-repeat right bottom
+    background-color background-image background-repeat background-attachment background-position*/
 }

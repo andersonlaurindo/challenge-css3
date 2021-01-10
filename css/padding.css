@@ -1,0 +1,19 @@
+#paddingComplete {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+#paddingShorthand {
+    padding: 25px 50px 75px 100px;
+}
+
+#paddingWithWidth {
+    border: 1px solid black;
+    background-color: yellowgreen;
+    width: 300px;
+    padding: 25px;
+}

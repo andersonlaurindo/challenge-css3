@@ -1,0 +1,17 @@
+#exampleHeightWidth {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+
+#exampleMaxWidthMaxHeight {
+    max-width: 500px;
+    max-height: 100px;
+    background-color: powderblue;
+}
+
+#exampleMinWidthMinHeight {
+    max-width: 500px;
+    max-height: 100px;
+    background-color: powderblue;
+}

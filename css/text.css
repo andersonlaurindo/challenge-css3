@@ -43,3 +43,51 @@
 #exampleTextDecorationUnderline {
     text-decoration: underline;
 }
+
+#exampleTextTransformationUpper {
+    text-transform: uppercase;
+}
+  
+#exampleTextTransformationLower {
+    text-transform: lowercase;
+}
+  
+#exampleTextTransformationCapitalize {
+    text-transform: capitalize;
+}
+
+#exampleTextIdent {
+    text-indent: 50px;
+}
+
+#exampleLetterSpacingPositive {
+    letter-spacing: 3px;
+}
+  
+#exampleLetterSpacingNegative {
+    letter-spacing: -3px;
+}
+
+#exampleSmallLineHeight {
+    line-height: 0.7;
+}
+  
+#exampleBigLineHeight {
+    line-height: 1.8;
+}
+
+#exampleWordSpacingPositive {
+    word-spacing: 10px;
+}
+  
+#exampleWordSpacingNegative {
+    word-spacing: -5px;
+}
+
+#exampleWhiteSpace {
+    white-space: nowrap;
+}
+
+#exampleTextShadow {
+    text-shadow: 2px 2px 5px red;
+}

@@ -2,3 +2,44 @@
     background-color: lightgrey;
     color: blue;
 }
+
+#exampleTextAlignSide{ 
+    text-align: right;
+}
+
+#exampleTextAlignJustify {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+}
+
+#exampleTextDirection {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+#exampleImageAlignTop {
+    vertical-align: top;
+}
+  
+#exampleImageAlignMiddle {
+    vertical-align: middle;
+}
+
+#exampleTextDecorationNone {
+    text-decoration: none;
+}
+
+#exampleTextDecorationOverline {
+    text-decoration: overline;
+}
+  
+#exampleTextDecorationLinethrough {
+    text-decoration: line-through;
+}
+  
+#exampleTextDecorationUnderline {
+    text-decoration: underline;
+}

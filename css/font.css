@@ -1,0 +1,93 @@
+#testSerif {
+    font-family: serif;
+}
+
+#testSansSerif {
+    font-family: sans-serif;
+}
+
+#testMonospace {
+    font-family: monospace;
+}
+
+#testArial {
+    font-family: Arial, sans-serif;
+}
+
+#testHelvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+#testTahoma {
+    font-family: Tahoma, sans-serif;
+}
+
+#testTrebuchet {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#testTimes {
+    font-family: 'Times New Roman', serif;
+}
+
+#testGeorgia {
+    font-family: Georgia, serif;
+}
+
+#testGaramond {
+    font-family: Garamond, serif;
+}
+
+#testCourier {
+    font-family: 'Courier New', monospace;
+}
+
+#testBrush {
+    font-family: 'Brush Script MT', cursive;
+}
+
+#testNormalStyle {
+    font-style: normal;
+}
+
+#testItalicStyle {
+    font-style: italic;
+}
+
+#testObliqueStyle {
+    font-style: oblique;
+}
+
+#testWeightNormal {
+    font-weight: normal;
+}
+  
+#testWeightBold {
+    font-weight: bold;
+}
+
+#testNormalVariant {
+    font-variant: normal;
+}
+  
+#testSmallVariant {
+    font-variant: small-caps;
+}
+
+#testPixelsSize {
+    font-size: 14px;
+}
+
+#testPixelsEm {
+    font-size: 0.875em; /* 14px/16=0.875em   1em is 16p*/
+}
+
+#testPixelsVw {
+    font-size: 5vw;
+}
+
+/*with the em size, it is possible to adjust the text size in all browsers.
+  The solution that works in all browsers, is to set a default font-size in percent for the <body> element:*/
+body {
+    font-size: 100%;
+}

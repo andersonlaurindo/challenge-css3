@@ -1,0 +1,40 @@
+/* unvisited link */
+#linkExample1 a:link {
+    color: red;
+    text-decoration: none;
+    background-color: yellow;
+}
+
+/* visited link */
+#linkExample1 a:visited {
+    color: green;
+    text-decoration: none;
+    background-color: cyan;
+}
+
+/* mouse over link */
+#linkExample1 a:hover {
+    color: hotpink;
+    text-decoration: underline;
+    background-color: lightgreen;
+}
+
+/* selected link */
+#linkExample1 a:active {
+    color: blue;
+    text-decoration: underline;
+    background-color: hotpink;
+}
+
+#linkExample2 a:link, #linkExample2 a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+ #linkExample2 a:hover, #linkExample2 a:active {
+    background-color: red;
+  }

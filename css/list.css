@@ -1,0 +1,69 @@
+ul.styleCircle {
+    list-style-type: circle;
+}
+
+ul.styleSquare {
+    list-style-type: square;
+}
+
+ol.styleUpperRoman {
+    list-style-type: upper-roman;
+}
+
+ol.styleLowerAlpha {
+    list-style-type: lower-alpha;
+}
+
+ul.styleGif {
+    list-style-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cb/Globe_rotating.gif');
+}
+
+ul.styleOutside {
+    list-style-position: outside;
+}
+  
+ul.styleInside {
+    list-style-position: inside;
+}
+
+ul.styleRemoveDefault {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.styleShorthand {
+    list-style: square inside url("https://upload.wikimedia.org/wikipedia/commons/c/cb/Globe_rotating.gif");
+}
+
+ul.StyleWithColor {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+ul.StyleWithColor li {
+    background: #cce5ff;
+    margin: 5px;
+}
+
+ul.styleFullWidth {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd;
+}
+  
+ul.styleFullWidth li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+ul.styleFullWidth li:last-child {
+    border-bottom: none
+}
+
+ul.styleRedLeftBorder {
+    border-left: 5px solid red;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 10px 20px;
+}

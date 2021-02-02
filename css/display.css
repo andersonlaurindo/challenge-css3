@@ -1,0 +1,15 @@
+li.exampleInline {
+    display: inline;
+}
+
+span.exampleBlock {
+    display: block;
+}
+
+span.displayNone {
+    display: none;
+}
+
+span.visibilityHidden {
+    visibility: hidden;
+}

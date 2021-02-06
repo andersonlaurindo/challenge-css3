@@ -1,0 +1,45 @@
+div.overflowVisible {
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: visible;
+    margin: 70px 0px;
+}
+
+div.overflowHidden {
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: hidden;
+    margin: 70px 0px;
+}
+
+div.overflowScroll {
+    background-color: #eee;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow: scroll;
+    margin: 70px 0px;
+}
+
+div.overflowAuto {
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: auto;
+    margin: 70px 0px;
+}
+
+div.overflowXY {
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 70px 0px;
+}

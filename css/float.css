@@ -1,0 +1,61 @@
+.divDefault {
+    margin: 100px 0px;
+}
+
+.divAuxiliarClearfix {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+}
+
+.divClearfix {
+    overflow: auto;
+}
+
+.divClearfixHack::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.div1 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.div2 {
+    border: 1px solid red;
+}
+
+.div3 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.div4 {
+    border: 1px solid red;
+    clear: left;
+}
+
+img {
+    width:170px;
+    height:170px;
+    margin-left:15px;
+}
+
+.imgFloatRight {
+    float: right;
+}
+
+.imgFloatLeft {
+    float: left;
+}
+
+.imgNoFloat {
+    float: none;
+}

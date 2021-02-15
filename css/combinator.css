@@ -1,0 +1,15 @@
+div p {
+    background-color: yellow;
+}
+
+div > p {
+    color: red;
+}
+
+div + p {
+    border: 5px solid red;
+}
+
+p ~ ul {
+    background: #ff0000;
+}

@@ -1,0 +1,31 @@
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
+p::first-letter {
+    font-size: xx-large;
+}
+
+h2::before {
+    content: '*';
+}
+
+h2::after {
+    content: '***';
+}
+
+::marker { 
+    color: red;
+    font-size: 23px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+  }
+  
+  ::selection {
+    color: red;
+    background: yellow;
+  }

@@ -1,0 +1,53 @@
+#transparency50 {
+    opacity: 0.5;
+}
+
+#transparencyHover {
+    opacity: 0.5;
+}
+
+#transparencyHover:hover {
+    opacity: 1.0;
+}
+
+
+  div.first {
+    opacity: 0.1;
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+  
+  div.second {
+    opacity: 0.3;
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+  
+  div.third {
+    opacity: 0.6;
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+
+  div.rgba {
+    padding: 10px;
+    background: rgba(76, 175, 80, 0.9);
+  }
+
+  div.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }

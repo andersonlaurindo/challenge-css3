@@ -1,0 +1,35 @@
+#myid {
+    background-color: blue;
+  }
+  
+  .myclass {
+    background-color: gray;
+  }
+  
+  h2 {
+    background-color: red !important;
+  }
+
+  #otherid {
+    background-color: blue !important;
+  }
+  
+  .otherclass {
+    background-color: gray !important;
+  }
+  
+  span {
+    background-color: red !important;
+  }
+
+  .button {
+    background-color: #8c8c8c !important; 
+    color: white !important;
+    padding: 5px !important;
+    border: 1px solid black !important; 
+  }
+  
+  #myDiv a {
+    color: red;
+    background-color: yellow;  
+  }

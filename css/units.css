@@ -1,0 +1,15 @@
+p.unitCentimenters{font-size: 0.5cm;}
+p.unitMilimeters{font-size: 5mm;}
+p.unitInches{font-size: 0.2in;}
+p.unitPixels{font-size: 15px;}
+p.unitPoint{font-size: 15pt;}
+p.unitPicas{font-size: 1.5pc;}
+p.unitEm{line-height: 2em;}
+p.unitEx{font-size: 2ex;}
+p.unitCh{font-size: 3ch;}
+p.unitRem{font-size: 2rem;}
+p.unitVw{font-size: 2vw;}
+p.unitVh{font-size: 2vh;}
+p.unitVmin{font-size: 5vmin;}
+p.unitVmax{font-size: 1vmax;}
+p.unitPercent{font-size: 150%;}

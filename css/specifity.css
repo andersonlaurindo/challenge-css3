@@ -1,0 +1,26 @@
+h2 {background-color: yellow;}
+h2 {background-color: red;} /*Last h1 Equal specificity: the latest rule counts*/
+
+p{color: yellow;}
+p#parId{color: red;}
+p.parClass{color: blue;}
+p.parClass::after{color: gray;}
+
+span{color: yellow;}
+span#spanId{color: red;}
+span.spanClass{color: blue;}
+span.spanClass::after{color: gray;}
+
+h3{color: yellow;}
+h3.h3Class{color: blue;}
+h3.h3Class::after{color: gray;}
+
+h4{color: yellow;}
+h4.h4Class::before{color: gray;}
+
+h5#h5Id {background-color: green;}
+#h5Id {background-color: yellow;}
+h5[id=h5Id] {background-color: blue;}
+
+
+h6#content {background-color: red;}

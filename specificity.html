@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge CSS3 - Specifity</title>
+    <link rel="stylesheet" href="css/specifity.css">
+    <style>
+        h6#content {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Back to main</a>
+    </nav>
+    <h1>Testing specifity.css.</h1>
+    <h2>Test equal specificity.</h2>
+    <p style="color: green;" id="parId" class="parClass">Test specificity inline.</p>
+    <span id="spanId" class="spanClass">Test specificity id.</span>
+    <h3 class="h3Class">Test specificity class.</h3>
+    <h4 class="h4Class">Test specificity element.</h4>
+    <h5 id="h5Id">Test specificity id selector/attribute selector.</h5>
+    <h6 id="content">Test specificity from internal/external file.</h6>
+</body>
+
+</html>

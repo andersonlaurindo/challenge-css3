@@ -1,0 +1,29 @@
+#borderimg { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../img/border.png) 30 round;
+  }
+
+  #borderimgstretched { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../img/border.png) 30 stretch;
+  }
+
+  #borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../img/border.png) 50 round;
+  }
+  
+  #borderimg2 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../img/border.png) 20% round;
+  }
+  
+  #borderimg3 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../img/border.png) 30% round;
+  }

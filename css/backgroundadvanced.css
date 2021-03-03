@@ -1,0 +1,47 @@
+#example1 {
+    background-image: url(../img/searchicon.png), url(../img/bg-test-repeat.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+
+  #example2 {
+    border: 1px solid black;
+    background: url(../img/searchicon.png);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    padding: 15px;
+  }
+  
+  #example3 {
+    border: 1px solid black;
+    background: url(../img/searchicon.png);
+    background-repeat: no-repeat;
+    padding: 15px;
+  }
+
+  .div1 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(../img/searchicon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .div2 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(../img/searchicon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .div3 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(../img/searchicon.png);
+    background-repeat: no-repeat;
+  }

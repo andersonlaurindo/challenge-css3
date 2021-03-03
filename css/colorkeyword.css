@@ -1,0 +1,42 @@
+body {
+    background-color: wheat;
+  }
+  
+  div.ex1 { 
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 15px;
+  }
+  
+  div.ex2 { 
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 15px;
+  }
+
+  div.currentcolor {
+    color: blue;
+    border: 10px solid currentcolor;
+    padding: 15px;  
+  }
+
+  div.out {
+    color: purple;
+  }
+  
+  div.in {
+    background-color: currentcolor;
+    padding: 15px;
+  }
+  
+  div.in p {
+    color: white;
+  }
+
+  div.inheritexample {
+    border: 2px solid red;
+  }
+  
+  span {
+    border: inherit;
+  }

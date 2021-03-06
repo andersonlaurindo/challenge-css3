@@ -1,0 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/sansation_light.ttf);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }

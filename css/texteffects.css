@@ -1,0 +1,60 @@
+p.test1 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  
+  p.test2 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  p.test1:hover, p.test2:hover {
+    overflow: visible;
+  }
+
+  p.test3 {
+    width: 11em; 
+    border: 1px solid #000000;
+    /*word-wrap: break-word;*/
+  }
+
+  p.test4 {
+    width: 11em; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+  }
+
+  p.test5 {
+    width: 140px; 
+    border: 1px solid #000000;
+  }
+
+  p.test6 {
+    width: 140px; 
+    border: 1px solid #000000;
+    word-break: keep-all;
+  }
+  
+  p.test7 {
+    width: 140px; 
+    border: 1px solid #000000;
+    word-break: break-all;
+  }
+
+  p.test8 {
+    writing-mode: horizontal-tb; 
+  }
+  
+  span.test9 {
+    writing-mode: vertical-rl; 
+  }
+  
+  p.test9 {
+    writing-mode: vertical-rl; 
+  }

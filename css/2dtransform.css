@@ -1,0 +1,155 @@
+div.ex1 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+/*    -ms-transform: translate(50px,100px); */ /* IE 9 */
+    /*transform: translate(50px,100px); */ /* Standard syntax */
+  }
+
+  div.ex2 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: translate(50px,0px);  /* IE 9 */
+    transform: translate(50px,0px);  /* Standard syntax */
+  }
+
+  div.ex3 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  div.ex4 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg); /* Standard syntax */
+  }
+
+  div.ex5 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    transform: rotate(-20deg); /* Standard syntax */
+  }
+
+  div.ex6 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: scale(2,3); /* IE 9 */
+    transform: scale(2,3); /* Standard syntax */
+  }
+
+  div.ex7 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: scale(0.5,0.5); /* IE 9 */
+    transform: scale(0.5,0.5); /* Standard syntax */
+  }
+
+  div.ex8 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: scaleX(2); /* IE 9 */
+    transform: scaleX(2); /* Standard syntax */
+  }
+
+  div.ex9 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: scaleX(0.5); /* IE 9 */
+    transform: scaleX(0.5); /* Standard syntax */
+  }
+
+  div.ex10 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: scaleY(3); /* IE 9 */
+    transform: scaleY(3); /* Standard syntax */
+  }
+
+  div.ex11 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: scaleY(0.5); /* IE 9 */
+    transform: scaleY(0.5); /* Standard syntax */
+  }
+
+  div.ex12 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: skewX(20deg); /* IE 9 */
+    transform: skewX(20deg); /* Standard syntax */
+  }
+
+  div.ex13 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: skewY(20deg); /* IE 9 */
+    transform: skewY(20deg); /* Standard syntax */
+  }
+
+  div.ex14 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: skew(20deg,10deg); /* IE 9 */
+    transform: skew(20deg,10deg); /* Standard syntax */
+  }
+
+  div.ex15 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    -ms-transform: skew(20deg); /* IE 9 */
+    transform: skew(20deg); /* Standard syntax */
+  }
+
+  div.ex16 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+    transform: matrix(1, -0.3, 0, 1, 0, 0); /* Standard syntax */
+  }
+  
+  div.ex17 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: matrix(1, 0, 0.5, 1, 150, 0); /* IE 9 */
+    transform: matrix(1, 0, 0.5, 1, 150, 0); /* Standard syntax */
+  }

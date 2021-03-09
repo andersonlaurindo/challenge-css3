@@ -1,0 +1,48 @@
+#nofit {
+    width: 200px;
+    height: 300px;
+  }
+
+#cover {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#contain {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+#fill {
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+}
+
+#none {
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+}
+
+#scale-down {
+    width: 200px;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+#position1 {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 80% 100%;
+  }
+
+  #position2 {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 15% 100%;
+  }

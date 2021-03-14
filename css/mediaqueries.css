@@ -21,7 +21,42 @@
   padding: 2px;
 }
 
+div.hide {
+  background-color: yellow;
+  padding: 20px;
+}
+
+div.fontsize {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
 @media screen and (min-width: 480px) {
   #leftsidebar {width: 200px; float: left;}
   #main {margin-left: 216px;}
+}
+
+@media screen and (max-width: 600px) {
+  div.hide {
+    display: none;
+  }
+
+  div.fontsize {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+  div.operator {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
+  }
+}
+
+@media only screen and (orientation: portrait) { /*Landscape*/
+  body {
+    background-color: lightblue;
+  }
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge CSS3 - Responsive Web Design Image</title>
+    <link rel="stylesheet" href="css/rwdimage.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Back to main</a>
+    </nav>
+    <h1>Testing rwdimage.css.</h1>
+    <img class="width" src="./img/img_man.jpg" width="460" height="345">
+    <p>Resize the browser window to see how the image will scale.</p>
+    <img class="max-width" src="./img/img_man.jpg" width="460" height="345">
+    <p>Resize the browser window to see how the image will scale when the width is less than 460px.</p>
+    <br>
+    <div class="bgsizecontain"></div>
+    <br>
+    <div class="bgsize100"></div>
+    <br>
+    <div class="bgsizecover"></div>
+    <br>
+    <div class="differentbgimages"></div>
+    <p">Resize the browser width and the background image will change at 400px.</p>
+    <picture>
+        <source srcset="./img/searchicon.png" media="(max-width: 400px)">
+        <source srcset="./img/img_man.jpg">
+        <img src="./img/img_man.jpg" alt="Flowers" style="width:auto;">
+      </picture>
+</body>
+
+</html>
